@@ -4,6 +4,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Montserrat", sans-serif;
+  /* border: 1px solid black; */
 }
 
 #content {
@@ -11,7 +12,7 @@
   background-image: url("./img/bg.jpg");
   background-size: cover;
   display: grid;
-  align-items: center;
+  place-items: center;
 }
 
 #content-container {
@@ -23,8 +24,15 @@
   place-items: center;
 }
 
+#content-container-menu {
+  background-color: rgb(255, 255, 255, 0.7);
+  display: grid;
+  place-items: center;
+}
+
 #main-headline,
-#contact-headline {
+#contact-headline,
+#menu-headline {
   font-size: 48px;
   text-align: center;
   padding-top: 24px;
@@ -41,4 +49,43 @@
 
 .contact-info {
   margin-bottom: 12px;
+}
+
+#menu-text {
+  width: 50%;
+}
+
+.flavor-title {
+  font-weight: bold;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+}
+
+.flavor-description {
+  margin-bottom: 24px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.flavor-image-container {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  display: grid;
+  place-items: center;
+}
+
+.flavor-image {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 18px;
+}
+
+.flavor-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 3fr;
+  margin: 12px;
+  border-radius: 8px;
 }
