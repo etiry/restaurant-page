@@ -23,7 +23,8 @@
   place-items: center;
 }
 
-#main-headline {
+#main-headline,
+#contact-headline {
   font-size: 48px;
   text-align: center;
   padding-top: 24px;
@@ -32,4 +33,12 @@
 #main-text {
   width: 40%;
   text-align: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.contact-info {
+  margin-bottom: 12px;
 }

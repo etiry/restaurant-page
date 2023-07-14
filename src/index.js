@@ -1,7 +1,13 @@
 import { renderHome } from './home';
+import { renderContact } from './contact';
 
 function home() {
   renderHome();
 }
 
-home();
+function contact() {
+  renderContact();
+}
+
+// home();
+contact();
