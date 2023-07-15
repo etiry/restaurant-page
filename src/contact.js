@@ -1,6 +1,8 @@
 function render() {
   const content = document.getElementById('content');
 
+  content.innerHTML = '';
+
   const contentContainer = document.createElement('div');
   contentContainer.setAttribute('id', 'content-container');
 

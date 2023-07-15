@@ -1,6 +1,7 @@
 import { renderHome } from './home';
 import { renderContact } from './contact';
 import { renderMenu } from './menu';
+import { renderNav } from './nav';
 
 function home() {
   renderHome();
@@ -14,6 +15,11 @@ function menu() {
   renderMenu();
 }
 
-// home();
+function nav() {
+  renderNav();
+}
+
 // contact();
-menu();
+// menu();
+nav();
+home();
