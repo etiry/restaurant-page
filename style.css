@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Petit+Formal+Script&display=swap");
 
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Montserrat", sans-serif;
   /* border: 1px solid black; */
 }
 
@@ -23,6 +22,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 #content-container-menu {
@@ -32,6 +32,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10vh;
+  font-family: "Montserrat", sans-serif;
 }
 
 #main-headline,
@@ -39,7 +40,8 @@
 #menu-headline {
   font-size: 48px;
   text-align: center;
-  padding: 24px 12px;
+  margin-top: 24px;
+  font-family: "Petit Formal Script", serif;
 }
 
 #main-text {
@@ -101,7 +103,21 @@
   height: 10vh;
   background-color: #e58262;
   display: flex;
+}
+
+#logo-container {
+  flex: 1;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-family: "Petit Formal Script", serif;
+}
+
+#button-container {
+  display: flex;
   justify-content: end;
+  flex: 1;
+  font-family: "Montserrat", sans-serif;
 }
 
 button {
@@ -110,4 +126,9 @@ button {
   font-size: 24px;
   padding: 12px 24px;
   margin: 8px;
+}
+
+#logo {
+  width: 35px;
+  padding: 12px;
 }
