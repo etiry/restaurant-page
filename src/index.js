@@ -2,6 +2,7 @@ import { renderHome } from './home';
 import { renderContact } from './contact';
 import { renderMenu } from './menu';
 import { renderNav } from './nav';
+import { renderFooter } from './footer';
 
 function home() {
   renderHome();
@@ -19,7 +20,10 @@ function nav() {
   renderNav();
 }
 
-// contact();
-// menu();
+function footer() {
+  renderFooter();
+}
+
 nav();
 home();
+footer();
